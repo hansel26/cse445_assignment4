@@ -3,14 +3,11 @@
   <xs:element name="Hotels">
     <xs:complexType>
       <xs:sequence>
-      <!--This conatins a sequence of one or more Hotel elements-->
         <xs:element name="Hotel" maxOccurs="unbounded">
           <xs:complexType>
             <xs:sequence>
-            <!--This si so that each element has a name, one or more ohone numbers and address-->
               <xs:element name="Name" type="xs:string"/>
               <xs:element name="Phone" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
-              <!--This is the address element sequence-->
               <xs:element name="Address">
                 <xs:complexType>
                   <xs:sequence>
@@ -20,12 +17,10 @@
                     <xs:element name="State" type="xs:string"/>
                     <xs:element name="Zip" type="xs:string"/>
                   </xs:sequence>
-                  <!--OPtional element -->
                   <xs:attribute name="NearestAirport" type="xs:string" use="optional"/>
                 </xs:complexType>
               </xs:element>
             </xs:sequence>
-            <!--This is a required attribute (rating in decimal)-->
             <xs:attribute name="Rating" type="xs:decimal" use="required"/>
             <xs:attribute name="NearestAirport" type="xs:string" use="optional"/>
           </xs:complexType>
