@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="Hotels.xsd">
+
+  <Hotel NearestAirport="Sky Harbor">
+    <Name>Westin Tempe</Name>
+    <Phone>480-968-8885</Phone>
+    <Phone>800-937-8461</Phone>
+    <Address>
+      <Number>11</Number>
+      <Street>E 7th St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+
+
+  <Hotel Rating="4.3">
+    <Name>Graduate Tempe</Name>
+    <Address>
+      <Number>225</Number>
+      <Street>E Apache Blvd</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+
+
+  <Hotel Rating="4.6" NearestAirport="Sky Harbor">
+    <Name>Tempe Mission Palms Hotel</Name>
+    <Phone>480-894-1400</Phone>
+    <Phone>800-547-8705</Phone>
+    <Address>
+      <Number>60</Number>
+      <Street>E 5th St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+  </Hotel>
+
+
+  <Hotel Rating="4.4">
+    <Name>Canopy by Hilton Tempe Downtown</Name>
+    <Name>Duplicate Name SHOULD NOT BE HERE</Name>
+    <Phone>480-968-8888</Phone>
+    <Address>
+      <Number>108</Number>
+      <Street>E University Dr</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+
+</Hotel>
