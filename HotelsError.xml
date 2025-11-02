@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--Error 1 The root element name is Hotel instead of Hotels -->
 <Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="Hotels.xsd">
-
+<!--Error 2 A required attribute is missing-->
   <Hotel NearestAirport="Sky Harbor">
     <Name>Westin Tempe</Name>
     <Phone>480-968-8885</Phone>
@@ -15,7 +16,7 @@
     </Address>
   </Hotel>
 
-
+<!--Error 3 A phone element is missing-->
   <Hotel Rating="4.3">
     <Name>Graduate Tempe</Name>
     <Address>
@@ -27,7 +28,7 @@
     </Address>
   </Hotel>
 
-
+<!--Error 4 An address element has no closing tag-->
   <Hotel Rating="4.6" NearestAirport="Sky Harbor">
     <Name>Tempe Mission Palms Hotel</Name>
     <Phone>480-894-1400</Phone>
@@ -40,7 +41,7 @@
       <Zip>85281</Zip>
   </Hotel>
 
-
+<!--Error 5 Two names are provided for one of the hotels-->
   <Hotel Rating="4.4">
     <Name>Canopy by Hilton Tempe Downtown</Name>
     <Name>Duplicate Name SHOULD NOT BE HERE</Name>
