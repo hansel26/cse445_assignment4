@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Hotels.xsd">
-    <!--Sample Hotel 1 -->
   <Hotel Rating="4.2">
     <Name>Westin</Name>
     <Phone>480-968-8885</Phone>
@@ -13,8 +12,6 @@
       <Zip>85281</Zip>
     </Address>
   </Hotel>
-
-     <!--Hotel 2 -->
   <Hotel Rating="4.5">
     <Name>Hyatt</Name>
     <Phone>480-804-9544</Phone>
@@ -27,7 +24,6 @@
     </Address>
   </Hotel>
 
-     <!--Hotel 3 -->
   <Hotel Rating="4.3">
     <Name>Graduate</Name>
     <Phone>480-967-9431</Phone>
@@ -39,7 +35,7 @@
       <Zip>85281</Zip>
     </Address>
   </Hotel>
-     <!--Hotel 4 -->
+
   <Hotel Rating="4.6">
     <Name>MissionPalms</Name>
     <Phone>480-894-1400</Phone>
@@ -52,7 +48,7 @@
       <Zip>85281</Zip>
     </Address>
   </Hotel>
-     <!--Hotel 5 -->
+
   <Hotel Rating="4.4">
     <Name>Canopy</Name>
     <Phone>480-968-8888</Phone>
@@ -64,7 +60,7 @@
       <Zip>85281</Zip>
     </Address>
   </Hotel>
-     <!--Hotel 6 -->
+
   <Hotel Rating="4.0">
     <Name>Aloft</Name>
     <Phone>480-621-3300</Phone>
@@ -76,7 +72,7 @@
       <Zip>85281</Zip>
     </Address>
   </Hotel>
-     <!--Hotel 7 -->
+
   <Hotel Rating="4.1">
     <Name>Courtyard</Name>
     <Phone>480-966-2800</Phone>
@@ -89,7 +85,6 @@
     </Address>
   </Hotel>
 
-     <!--Hotel 8 -->
   <Hotel Rating="4.7">
     <Name>Omni</Name>
     <Phone>602-794-8600</Phone>
@@ -102,7 +97,6 @@
     </Address>
   </Hotel>
 
-     <!--Hotel 9 -->
   <Hotel Rating="4.3">
     <Name>Hilton</Name>
     <Phone>480-968-1328</Phone>
@@ -114,7 +108,7 @@
       <Zip>85281</Zip>
     </Address>
   </Hotel>
-     <!--Hotel 10 -->
+
   <Hotel Rating="3.9">
     <Name>Hampton</Name>
     <Phone>480-410-6440</Phone>
@@ -127,7 +121,7 @@
       <Zip>85281</Zip>
     </Address>
   </Hotel>
-     <!--Hotel 11 -->
+
   <Hotel Rating="4.2">
     <Name>ResidenceInn</Name>
     <Phone>480-555-1122</Phone>
@@ -140,4 +134,3 @@
     </Address>
   </Hotel>
 </Hotels>
-
