@@ -1,4 +1,3 @@
-<!--This includes the sample hotel given and 10 more hotels-->
 <?xml version="1.0" encoding="UTF-8"?>
 <Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Hotels.xsd">
     <!--Sample Hotel 1 -->
@@ -141,3 +140,4 @@
     </Address>
   </Hotel>
 </Hotels>
+
